@@ -2,9 +2,38 @@
  * YOUR CODE HERE! *
  *******************/
 
+let index = 0
+
+function yell(name){
+  return name + '!'
+}
+function getFirstCharacter(name){
+  return name = name[index]
+  
+}
+
+function getLastCharacter(){
+  return name = name[index]
+}
 
 
+function getOneCharacter(){
+  return 
+}
 
+function getTwoCharacters(){
+
+}
+
+function makeCapitalized(){
+
+}
+function yellLouder(){
+
+}
+function getInitials(){
+
+}
 
 
 /********************************************************************
