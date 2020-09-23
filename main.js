@@ -2,36 +2,39 @@
  * YOUR CODE HERE! *
  *******************/
 
-let index = 0
-
-function yell(name){
-  return name + '!'
+function yell(str) {
+  return str + '!'
 }
-function getFirstCharacter(name){
-  return name = name[index]
-  
+function getFirstCharacter(str) {
+  return str[0]  
 }
 
-function getLastCharacter(){
-  return name = name[index]
+function getLastCharacter(str) {
+  return str[str.length -1];
 }
 
-
-function getOneCharacter(){
-  return 
+function getOneCharacter(str, i) {
+  return str[i];
 }
 
-function getTwoCharacters(){
+function getTwoCharacters(str, i1, i2) {
+  return str[i1] + str[i2];
 
 }
 
-function makeCapitalized(){
+function makeCapitalized(str){
+  return str.toUpperCase() 
 
 }
-function yellLouder(){
+function yellLouder(str){
+  return str.toUpperCase() + '!!!'
 
 }
-function getInitials(){
+function getInitials(str){
+  let firstInitial = str[0]
+  let period = '.'
+
+  return str[0] + '.' + str[str.indexOf(' ') + 1] + '.';
 
 }
 
